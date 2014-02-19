@@ -15,7 +15,7 @@ angular.module('experimentRegister', ['ngRoute'])
       console.log('adding', routeFor(name), controller(name));
       _experiments.push({name: name, description: desc});
       $routeProvider.when(routeFor(name), {
-        templateUrl: 'experiments' + routeFor(name) + '/views/main.html',
+        templateUrl: 'scripts/experiments' + routeFor(name) + '/views/main.html',
         controller: controller(name)
       })
     };
