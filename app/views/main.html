@@ -1,0 +1,24 @@
+<div class="header">
+  <ul class="nav nav-pills pull-right">
+    <li class="active"><a ng-href="#">Home</a></li>
+    <li><a ng-href="#">About</a></li>
+    <li><a ng-href="#">Contact</a></li>
+  </ul>
+  <h3 class="text-muted">register_exp</h3>
+</div>
+
+<div class="jumbotron">
+  <h1>Experiments</h1>
+  <p class="lead">
+
+  </p>
+</div>
+
+<div class="row" ng-repeat="exp in experiments">
+<h3>{{exp.name}}</h3>
+<p>{{exp.description}}</p>
+</div>
+
+<div class="footer">
+  <p>Yup</p>
+</div>
